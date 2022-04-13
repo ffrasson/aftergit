@@ -8,6 +8,7 @@ body{
     background-image: linear-gradient(navy, rgb(238, 68, 96));
     width: 100vh;
     height: 100vh;
+    color: white;
 }
 
 footer{
@@ -31,4 +32,10 @@ h1, h2, h4{
 h1{
     font-size: 3rem;
     text-align: center;
+    transition: all 2s;
+}
+
+h1:hover{
+    font-size: 3.2rem;
+    color: lime;
 }
